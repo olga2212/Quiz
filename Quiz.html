@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <h1>Тест на знание истории Москвы</h1>
+    <form>
+        <div>
+        <label>1.Годом основания Москвы принято считать:</label>
+        <input type="radio" name="word1">985
+        <input type="radio" name="word1">1067
+        <input type="radio" name="word1" id="answer_one">1147
+    </div>
+    <div>
+        <label>2. Укажите самую короткую линию московского метро.</label>
+        <input type="radio" name="word2"id="answer_two"> Каховская
+        <input type="radio" name="word2">Калининско-Солнцевская
+        <input type="radio" name="word2" >Калужско-Рижская
+    </div>
+    <div>
+        <label>3. Какая достопримечательность изображена на фото?</label>
+        <div></div>
+        <img src="https://traveltimes.ru/wp-content/uploads/2021/06/485852723b144c1a64bd7c0439fe4e00.jpg" alt="" width="200">
+    </div>
+        <input type="radio" name="word3"> Главное здание Московского государственного университета
+        <input type="radio" name="word3">Гостиница «Украина»
+        <input type="radio" name="word3"id="answer_three" >Здание Министерства иностранных дел
+    </div>
+    <div>
+        <label>4. Какие из городов не являются побратимами Москвы?</label>
+        <input type="radio" name="word4"id="answer_four"> Киев, Гонконг, Амстердам, Батуми, Салоники, Нью-Дели, Брест
+        <input type="radio" name="word4">Загреб, Лондон, Улан-Батор, Николаев, Вена, Бангкок
+        <input type="radio" name="word4" >Сеул, Манила, Дубай, Гавана, Чикаго, Баку, Анкара
+    </div>
+
+    <div>
+        <label>5. Первым мэром Москвы являлся:</label>
+        <input type="radio" name="word5">  Юрий Михайлович Лужков
+        <input type="radio" name="word5" id="answer_five">Гавриил Харитонович Попов
+        <input type="radio" name="word5" >Николай Николаевич Гончар
+    </div>
+    <div>
+        <label>6. Самым высоким памятником Москвы является:</label>
+        <input type="radio" name="word6"> Монумент покорителям космоса
+        <input type="radio" name="word6" >Царь-колокол
+        <input type="radio" name="word6" id="answer_six" >Монумент Победы
+    </div>
+    <div>
+        <label>7. Объясните происхождение названия «Чистые пруды».</label>
+        <input type="radio" name="word7" id="answer_seven" >  Первоначальное название – Поганый пруд. Но в XVIII веке его вычистили по приказу князя Меньшикова
+        <input type="radio" name="word7" >Это единственные пруды с проточной водой в центре Москвы
+        <input type="radio" name="word7" >Их назвали в честь князя Чистова, чья усадьба находилась неподалеку
+    </div>
+    <button id="btn">отправить</button>
+    <p id="result"></p>
+    </form>
+
+    
+    <script src="Quiz.js"></script>
+</body>
+</html>
